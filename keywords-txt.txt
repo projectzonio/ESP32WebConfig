@@ -1,0 +1,129 @@
+#######################################
+# ESP32WebConfig Library Keywords
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ESP32WebConfig	KEYWORD1
+ZonioMinimalConfig	KEYWORD1
+ParameterType	KEYWORD1
+ConfigParameter	KEYWORD1
+OnParameterChangeCallback	KEYWORD1
+OnConfigSaveCallback	KEYWORD1
+OnConfigLoadCallback	KEYWORD1
+CustomValidatorCallback	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# Basic Configuration
+setDeviceName	KEYWORD2
+setAPConfig	KEYWORD2
+setSTAConfig	KEYWORD2
+setCredentials	KEYWORD2
+setMDNS	KEYWORD2
+setEEPROM	KEYWORD2
+
+# Parameter Management
+addParameter	KEYWORD2
+addTextParameter	KEYWORD2
+addPasswordParameter	KEYWORD2
+addNumberParameter	KEYWORD2
+addFloatParameter	KEYWORD2
+addCheckboxParameter	KEYWORD2
+addSelectParameter	KEYWORD2
+addRangeParameter	KEYWORD2
+addTextareaParameter	KEYWORD2
+addParameterToGroup	KEYWORD2
+setParameterAttributes	KEYWORD2
+setParameterOrder	KEYWORD2
+setParameterReadOnly	KEYWORD2
+
+# Value Access
+getValue	KEYWORD2
+getInt	KEYWORD2
+getFloat	KEYWORD2
+getBool	KEYWORD2
+setValue	KEYWORD2
+
+# Callbacks
+onParameterChange	KEYWORD2
+onConfigSave	KEYWORD2
+onConfigLoad	KEYWORD2
+setCustomValidator	KEYWORD2
+
+# Control
+begin	KEYWORD2
+handle	KEYWORD2
+save	KEYWORD2
+load	KEYWORD2
+reset	KEYWORD2
+setDefaults	KEYWORD2
+
+# Configuration Export/Import
+exportConfig	KEYWORD2
+importConfig	KEYWORD2
+
+# Information
+isConfigChanged	KEYWORD2
+getVersion	KEYWORD2
+getDeviceName	KEYWORD2
+isConnected	KEYWORD2
+getLocalIP	KEYWORD2
+getAPIP	KEYWORD2
+getParameterCount	KEYWORD2
+getParameterKeys	KEYWORD2
+printConfig	KEYWORD2
+enableDebug	KEYWORD2
+
+# ZonioMinimalConfig specific
+setAPCredentials	KEYWORD2
+setAPIP	KEYWORD2
+addNumberParameter	KEYWORD2
+addFloatParameter	KEYWORD2
+addCheckboxParameter	KEYWORD2
+addSelectParameter	KEYWORD2
+getString	KEYWORD2
+isConfigMode	KEYWORD2
+shouldRestartDevice	KEYWORD2
+markRestartHandled	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# Parameter Types
+PARAM_TEXT	LITERAL1
+PARAM_PASSWORD	LITERAL1
+PARAM_NUMBER	LITERAL1
+PARAM_FLOAT	LITERAL1
+PARAM_CHECKBOX	LITERAL1
+PARAM_SELECT	LITERAL1
+PARAM_TEXTAREA	LITERAL1
+PARAM_COLOR	LITERAL1
+PARAM_RANGE	LITERAL1
+PARAM_EMAIL	LITERAL1
+PARAM_URL	LITERAL1
+PARAM_TIME	LITERAL1
+PARAM_DATE	LITERAL1
+
+# ZonioMinimalConfig Types
+ZONIO_TEXT	LITERAL1
+ZONIO_NUMBER	LITERAL1
+ZONIO_FLOAT	LITERAL1
+ZONIO_CHECKBOX	LITERAL1
+ZONIO_SELECT	LITERAL1
+
+# Library Constants
+ESP32WEBCONFIG_VERSION	LITERAL1
+WEBCONFIG_EEPROM_SIZE	LITERAL1
+WEBCONFIG_MAGIC_NUMBER	LITERAL1
+ZONIO_CONFIG_VERSION	LITERAL1
+ZONIO_MAGIC_NUMBER	LITERAL1
+ZONIO_EEPROM_SIZE	LITERAL1
+ZONIO_MAX_PARAMS	LITERAL1
+ZONIO_AP_TIMEOUT	LITERAL1
+ZONIO_PARAM_LEN	LITERAL1
